@@ -31,4 +31,5 @@ public class ProductService {
     public long countLowStockProducts() {
         return productRepository.countByQuantityLessThanEqual(5);
     }
+
 }
